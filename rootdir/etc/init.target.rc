@@ -75,6 +75,10 @@ on boot
     # Wifi firmware reload path
     chown wifi wifi /sys/module/wlan/parameters/fwpath
 
+    # Battery charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0666 /sys/class/power_supply/battery/input_suspend
+
     #USB controller configuration
     setprop vendor.usb.rndis.func.name "rndis_bam"
     setprop vendor.usb.rmnet.func.name "rmnet_bam"
