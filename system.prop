@@ -33,6 +33,9 @@ vendor.display.disable_skip_validate=1
 # GPS
 persist.vendor.overlay.izat.optin=rro
 
+# system props for dpm
+persist.vendor.dpm.nsrm.bkg.evt=3955
+
 # Graphics
 persist.demo.hdmirotationlock=false
 persist.hwc.enable_vds=1
