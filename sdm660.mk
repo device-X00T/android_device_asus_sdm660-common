@@ -483,3 +483,7 @@ PRODUCT_BOOT_JARS += \
 # Zen Parts
 PRODUCT_PACKAGES += \
     ZenParts
+
+# Via
+PRODUCT_PACKAGES += \
+    Via
