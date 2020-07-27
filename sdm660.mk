@@ -95,7 +95,7 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    Snap
+    GCamGo
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0 \
