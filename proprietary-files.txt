@@ -460,7 +460,7 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
 # Radio - from jasmine V11.0.12.0.QDIMIXM
-product/framework/qti-telephony-common.jar|5b1c23ce0d42e1b666d387eedde3444dd07e61bc
+# product/framework/qti-telephony-common.jar|5b1c23ce0d42e1b666d387eedde3444dd07e61bc
 
 # Radio
 -product/app/datastatusnotification/datastatusnotification.apk
