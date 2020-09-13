@@ -435,3 +435,6 @@ service vendor.sensors-hal-1-0 /vendor/bin/hw/android.hardware.sensors@1.0-servi
     group system input wakelock uhid
     capabilities BLOCK_SUSPEND
     rlimit rtprio 10 10
+
+service dpmd /system/bin/true
+    disabled
