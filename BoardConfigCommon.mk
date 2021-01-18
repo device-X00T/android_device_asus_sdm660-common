@@ -8,6 +8,9 @@ COMMON_PATH := device/asus/sdm660-common
 
 BOARD_VENDOR := asus
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
