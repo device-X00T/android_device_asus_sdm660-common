@@ -8,6 +8,8 @@ COMMON_PATH := device/asus/sdm660-common
 
 BOARD_VENDOR := asus
 
+BUILD_BROKEN_DUP_RULES := true
+
 # HWUI
 HWUI_COMPILE_FOR_PERF := true
 
