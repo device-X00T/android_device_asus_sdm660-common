@@ -175,6 +175,9 @@ BOARD_VNDK_VERSION := current
 # Vendor Security patch level
 VENDOR_SECURITY_PATCH := 2020-09-05
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/sys/kernel/touchpanel/dclicknode"
+
 # WiFi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
