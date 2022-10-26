@@ -43,6 +43,7 @@ PRODUCT_PACKAGES += \
     tinymix
 
 PRODUCT_PACKAGES += \
+    liba2dpoffload \
     android.hardware.bluetooth.audio@2.0-impl \
     audio.bluetooth.default \
     audio.a2dp.default \
